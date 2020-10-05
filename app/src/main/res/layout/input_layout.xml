@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="10sp"
+        android:text="233331"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="10sp"
+        android:text="233331"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="5">
+        <Button
+            android:text="C"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:text="()"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:text="%"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:text="/"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:text="7"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:text="8"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:text="9"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:text="*"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"/>
+
+
+    </GridLayout>
+
+
+</LinearLayout>
