@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     Button btn0,btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btnDivision,btnMultiply,btnAddition,btnSubtract,btnDot,btnPercentile,btnBrackets,btnEquals,btnClear;
     TextView inputArea,outputArea;
     String process;
+    boolean br = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);//enable full screen
         setContentView(R.layout.input_layout);
+
         btn0=findViewById(R.id.btn0);
         btn1=findViewById(R.id.btn1);
         btn2=findViewById(R.id.btn2);
@@ -165,7 +167,6 @@ public class MainActivity extends AppCompatActivity {
         btnBrackets.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                boolean br = true;
                 if(br){
                 process = inputArea.getText().toString();
                 inputArea.setText(process+"(");
