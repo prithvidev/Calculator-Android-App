@@ -16,4 +16,7 @@
     <string name="multiply">*</string>
     <string name="_9">9</string>
     <string name="addition">+</string>
+    <string name="_0">0</string>
+    <string name="equals">=</string>
+    <string name="dot">.</string>
 </resources>
