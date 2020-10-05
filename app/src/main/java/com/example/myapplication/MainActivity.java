@@ -2,7 +2,9 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.ConditionVariable;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -177,6 +179,28 @@ public class MainActivity extends AppCompatActivity {
                     inputArea.setText(process+")");
                     br = true;
                 }
+            }
+        });
+        btnPercentile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                process = inputArea.getText().toString();
+                inputArea.setText(process+"%");
+            }
+        });
+        btnEquals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                process = inputArea.getText().toString();
+
+                process = process.replaceAll("x","*");
+                process = process.replaceAll("÷","/");
+                process = process.replaceAll("%","/100");
+                char[] s = process.toCharArray();
+                for(int i =0; i<=s.length; i++){
+
+                }
+
             }
         });
 
