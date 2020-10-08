@@ -8,7 +8,7 @@
     <TextView
         android:id="@+id/inputArea"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="end"
         android:padding="10sp"
         android:textColor="@color/white"
@@ -22,10 +22,15 @@
         android:padding="10sp"
         android:textColor="@color/white"
         android:textSize="65sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="37sp" />
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:columnCount="6"
         android:rowCount="5">
 
